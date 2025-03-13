@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Unemployment Impact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">Unemployment Impact</div>
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <i class="fas fa-home"></i>
+                        <span>Homepage</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="blogs.html">
+                        <i class="fas fa-blog"></i>
+                        <span>Blogs</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="vlogs.html">
+                        <i class="fas fa-video"></i>
+                        <span>Vlogs</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html" class="active">
+                        <i class="fas fa-images"></i>
+                        <span>Gallery</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        <i class="fas fa-info-circle"></i>
+                        <span>About Us</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <div class="main-content">
+        <main>
+            <section class="gallery-header">
+                <h1>Inspirational Gallery</h1>
+                <p>Visual insights and motivational content about employment and purpose</p>
+            </section>
+
+            <section class="gallery-section">
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="motivational">Motivational</button>
+                    <button class="filter-btn" data-filter="statistics">Statistics</button>
+                    <button class="filter-btn" data-filter="infographics">Infographics</button>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item motivational">
+                        <div class="gallery-card">
+                            <img src="motivational-image.jpg" alt="A job may pay the bills, but purpose fuels the soul" class="gallery-image">
+                            <div class="gallery-overlay">
+                                <h3>"A job may pay the bills, but purpose fuels the soul"</h3>
+                                <p>Seek both purpose and sustenance in your career journey</p>
+                            </div>
+                        </div>
+                        <div class="gallery-caption">
+                            <p>Motivational reminder about balancing financial needs with personal fulfillment</p>
+                        </div>
+                    </div>
+                    <!-- Placeholder for more gallery items -->
+                    <div class="gallery-item statistics">
+                        <div class="gallery-card">
+                            <div class="placeholder-image">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="gallery-overlay">
+                                <h3>Employment Statistics</h3>
+                                <p>Current trends and data visualization</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item infographics">
+                        <div class="gallery-card">
+                            <div class="placeholder-image">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <div class="gallery-overlay">
+                                <h3>Career Development</h3>
+                                <p>Steps to professional growth</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Understanding Unemployment Impact. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html> 
